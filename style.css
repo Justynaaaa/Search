@@ -1,0 +1,161 @@
+body
+{
+    margin:0;
+    font-family: aria, sans-serif;
+    font-size: 0,9em;
+}
+
+a
+{
+    margin: 8px;
+    text-decoration: none;
+    color: black;
+}
+
+span
+{
+    margin: 8px;
+    text-decoration: none;
+    color: rgb(124, 118, 118);  
+}
+
+a:hover
+{
+    text-decoration: underline;
+}
+
+nav
+{    
+    display: flex;
+    justify-content: space-between;   
+}
+
+.header-right
+{
+    display: flex;
+    position: absolute;
+    top:2px;
+    right: 20px;   
+}
+
+
+h1
+{
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: -20px;
+    
+    font-size: 5.5em;
+    font-style: normal;
+
+}
+
+
+section
+{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    margin-top: -1vh;    
+}
+
+.Search-input
+{
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    height: 38px;
+    border: 1px solid gainsboro;
+    border-radius: 20px;
+    margin-top: -50px;
+ }
+
+.Search-input:hover
+{
+    box-shadow: 0 0 10px 0 gainsboro;
+}
+
+.Search-input>input
+{
+    flex-grow: 1;
+    border: none;
+    outline: none;
+}
+
+
+.my-button
+{
+    padding-top: 25px; 
+}
+
+button
+{
+   
+    background-color: ghostwhite;
+    border-radius: 5px;
+    border:none;
+    height: 36px;
+    padding: 0 20px;
+    margin: 0 4px;
+}
+
+button:hover
+{
+    cursor: pointer;
+    box-shadow: 0 0 10px gainsboro;
+}
+
+footer
+{
+    background-color:#F2F2F2;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    font-size: 15px;
+}
+
+#footer-row
+{
+    justify-content: space-between;
+    padding: 0px 5px;
+    border-top:0.5px solid rgb(184, 178, 178);    
+}
+
+#footer-left-center 
+{
+    padding-left: 20px;
+    align-items: center;     
+}
+
+a
+{
+    
+    color: gray;    
+}
+
+#footer-left 
+{
+    display: flex;
+    justify-self: start;
+    padding-left: 20px;
+    align-items: center;
+    color: gray;
+   
+}
+
+
+#footer-right
+{
+    
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;  
+    align-items: center;  
+}
+.vaizdai
+{
+text-align: center;
+color: rgb(175, 69, 69);
+margin-left: 240px;
+
+margin-top: -90px;
+}
