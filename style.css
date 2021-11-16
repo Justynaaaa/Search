@@ -49,7 +49,13 @@ h1
 
 }
 
-
+img
+{
+    width: 280px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 170px;
+}
 section
 {
     display: flex;
@@ -57,24 +63,48 @@ section
     align-items: center;
     margin-top: -1vh;    
 }
+.lb-srch
+{
+   
+    width: 510px;
+    height: 30px;
+    outline: none;
+    margin-left: -5px;
+    outline: none;
+    border: none;
+    padding-top: 2px;
+}
 
-.Search-input
+.img-search
+{
+     
+    width: 440px;
+    height: 30px;
+    outline: none;
+    margin-left: -2px;
+    outline: none;
+    border: none;
+    padding-top: 2px;
+}
+
+
+.Search-input 
 {
     display: flex;
     justify-content: space-between;
     width: 600px;
-    height: 38px;
+    height: 40px;
     border: 1px solid gainsboro;
     border-radius: 20px;
-    margin-top: -50px;
+    margin-top: 20px;
  }
 
-.Search-input:hover
+.Search-input:hover 
 {
     box-shadow: 0 0 10px 0 gainsboro;
 }
 
-.Search-input>input
+.Search-input>input 
 {
     flex-grow: 1;
     border: none;
@@ -85,7 +115,9 @@ section
 .my-button
 {
     padding-top: 25px; 
+    justify-content: space-between;     
 }
+
 
 button
 {
@@ -144,7 +176,7 @@ a
 
 
 #footer-right
-{
+{   
     
     display: flex;
     justify-content: flex-end;
@@ -153,9 +185,48 @@ a
 }
 .vaizdai
 {
-text-align: center;
-color: rgb(175, 69, 69);
-margin-left: 240px;
+    text-align: center;
+    color: rgb(175, 69, 69);
+    margin-left: 240px;
+    margin-top: -80px;
+}
 
-margin-top: -90px;
+h3
+{
+    color: rgba(224, 17, 17, 0.925);
+    margin-left: 40px;
+    margin-top: 70px;
+    
+}
+p
+{
+    margin-left: 40px;
+    margin-top: 70px;
+
+}
+ 
+label
+{
+    width: 200px;
+    display: inline-block;
+    margin-left: 40px;
+    
+}
+.lb
+{
+    width: 500px;
+    height: 25px;
+    margin: 5px;
+    
+     
+}
+.btn
+{
+    background-color: #4d90fe;
+    color: white;
+    border-radius: 0px;
+    border: 1px solid rgb(49, 66, 216);
+    margin-left: 620px;
+    margin-top: 25px;
+    
 }
